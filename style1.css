@@ -1,0 +1,347 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+    
+    html{
+    font-size: 62.5%;
+    }
+
+    
+       /*introduction*/ 
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color:transparent;  
+    padding-bottom: 200px; 
+}
+
+/*navs*/
+nav a{
+    font-size: 20px;
+    color: black;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+    text-align: center;
+    z-index: 5;
+}
+nav a:hover{
+    color: blue;
+}
+nav a.active{
+    color: blue;
+    text-align: right;
+}
+
+nav a.active{
+padding: 1rem;
+border-radius: 0.5rem;
+border-bottom: 0.5rem solid blue;
+text-align: left;
+}
+span{
+    color: blue;
+}
+
+.home-content h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: black;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-left: 20px;
+    text-align: justify;
+}
+.home-content h2{
+    color: black;
+    text-align: justify;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.home img{
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6BA3BE;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    filter: drop-shadow(1px 1px 20px blue);
+    margin-top: 50px;
+    border-radius: 10%;
+}
+/*social medias*/
+.social-icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid blue;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+.social-icons a:hover{
+    color: #032f30;
+    transform: scale(1.3)translate();
+    background-color: aqua;
+    box-shadow: 0 0 25px;
+}
+
+#title1 div{
+    border-radius: 20px;
+    width: 100%;
+    height: 100px;
+    background-color:  #845162;
+}
+
+#title1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    filter: drop-shadow(1px 1px 20px white);  
+}
+
+
+.title h1{
+    margin-top: 30px;
+    font-size: xx-large;
+}
+/*fav music*/
+.music{
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 30px;
+   background-color: #003c43;
+}
+
+.music1 {
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 30px;
+   background-color: #003c43;
+}
+
+#spotify div {
+    height: 370px;
+    width: 400px;
+    background:#e3b6b1;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(35, 32, 231);    
+}
+#spotify{
+    display: flex;
+    margin: 50px;
+    gap: 20px;
+    margin-top: 0%;
+}
+#spotify:hover> :not(:hover){
+    filter: blur(5px);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#spotify2{
+    display: flex;
+    margin: 50px;
+    gap: 20px;
+    margin-top: 20px;
+}
+#spotify2:hover> :not(:hover){
+    filter: blur(5px);
+    opacity: 0.5;
+}
+#spotify2 div {
+    height: 370px;
+    width: 400px;
+    background: #e3b6b1;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(35, 32, 231);   
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.video video {
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    padding-bottom: 50px;
+    filter: drop-shadow(1px 10px 20px blue);
+}
+
+.hobbies{
+    margin-top: 10%;
+    text-align: center;
+    padding-top: 30px;
+   background-color: #003c43;
+}
+    footer { background-color:black;
+    color: white;
+     padding: 20px 0;
+      text-align: right;
+      padding-right: 100px;
+    }
+.footer-container {
+    margin: 10px;
+     padding: 0 20px;
+} 
+footer a { color: white;
+    text-decoration: none;
+     margin: 0 10px; 
+   } 
+   footer a:hover { text-decoration: underline;
+    color: blue;
+    }
+
+
+/*skills*/
+.ski img{
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #845162;
+    border-radius: 20px;
+}
+.ski:hover{
+    transform: scale(1.1);
+    color: aqua;
+    cursor: pointer;
+}
+#skill div {
+    height: 220px;
+    width: 220px;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(35, 32, 231); 
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#skill{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 83px;
+}
+
+
+#stitle1 div{
+    width: 100%;
+    border-radius: 20px;
+    height: 100px;
+    background-color: #845162;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    filter: drop-shadow(1px 1px 20px white);
+    
+}
+
+#stitle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.stitle h1{
+    margin-top: 30px;
+    font-size: xx-large;
+}   
+
+.ski span{
+    color: black;
+    row-gap: 60px;
+}
+
+/*hobbies*/
+.hoby img{
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hoby:hover{
+    transform: scale(1.1);
+    color: aqua;
+    cursor: pointer;
+}
+
+#basketball div {
+    height: 220px;
+    width: 220px;
+    background:aquamarine;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(35, 32, 231); 
+    border-radius: 50%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+#basketball{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 83px;
+}
+
+#btitle1 div{
+    width: 100%;
+    border-radius: 20px;
+    height: 100px;
+    background-color: #845162;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    filter: drop-shadow(1px 1px 20px white);
+}
+
+#btitle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.btitle h1{
+    margin-top: 30px;
+    font-size: xx-large;
+}   
+
+.hoby span{
+    color: black;
+    row-gap: 60px;
+}
+
+/*the explanation of the design is on the HTML file :) */
+

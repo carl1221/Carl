@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    html{
+    font-size: 62.5%;
+    }
+    
+    body {
+        width: 100%;
+        height: 100%
+        hidden;
+    }
+/*for my grand mother*/
+#mama1 div{
+    width: 100%;
+    border-radius: 20px;
+    height: 100px;
+    background-color: #845162;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    filter: drop-shadow(1px 1px 20px white);
+}
+
+#mama1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.mama h1{
+    margin-top: 30px;
+    font-size: xx-large;
+}
+div img{
+    padding-right: 50px;
+    margin-right: 0%;
+    margin-top: 20px;
+    height: 700px;
+    width: auto;
+}
+
+
+#container div{
+    display: flex;
+    background-color: #e3b6b1;
+    padding-left: 40px;
+    padding-bottom: 60px;
+    width: auto;
+    height: 1000px;
+    border-radius: 50px;
+    box-shadow: 0px 10px 25px blue;
+}
+
+.lola{
+    padding: 60px;
+    padding-top: 30px;
+}
+
+
+section.textsafam{
+    color: black;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 25px;
+    padding-bottom: 50px;
+    display: flex;
+    text-align: justify;
+    padding-right: 50px;
+    padding-left: 30px;
+    word-spacing: 5px;
+    padding-top: 20px;
+    line-height: 40px;
+}
+
+.trans {
+    display: flex;
+}
+
+
+/* footer*/
+
+footer { background-color: black;
+     color: white;
+      padding: 20px 0;
+       text-align: right;
+       padding-right: 100px;
+     }
+.footer-container {
+     margin: 10px;
+      padding: 0 20px;
+ } 
+ footer a { color: white;
+     text-decoration: none;
+      margin: 0 10px; 
+    } 
+    footer a:hover { text-decoration: underline;
+        color: blue;
+     }
+  
+     /*friends*/
+
+     #fatitle1 div{
+        width: 100%;
+        border-radius: 20px;
+        height: 100px;
+        background-color: #845162;
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+        filter: drop-shadow(1px 1px 20px white);
+    }
+    
+    #fatitle1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(35, 32, 231);;
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .ftitle h1{
+        margin-top: 30px;
+        font-size: xx-large;
+    }
+
+
+    .fri img{
+        height: 600px;
+        width: 850px;
+        margin-top: 45px;
+        margin-left: 100px;
+    }
+    
+    #friends div {
+        height: auto;
+        width: 1000px;
+        background: #e3b6b1;
+        border-radius: 50px;
+        padding-bottom: 50px;
+        box-shadow: 0px 10px 25px blue;
+        margin-left: 121px;
+    }
+    #friends{
+        padding: 50px;
+        padding-top: 30px;
+    }
+
+
+    /*ACHIEVEMENTS*/
+    .ments img{
+        height: 300px;
+        width: 400px;
+        background-color: transparent;
+        padding: 20px;
+        border-radius: 50px;
+    }
+    
+    .ments:hover{
+        transform: scale(1.1);
+        color: blue;
+        filter: drop-shadow(1px 1px 20px blue);
+    }
+    
+    #achieve div {
+        height: auto;
+        width: auto;
+        background:transparent;
+        text-align: center;
+        font-size: x-large;
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+    #achieve{
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+        margin-left: 220px;
+        margin-right: 1000px;
+    }
+    
+    
+    
+    #atitle1 div{
+        width: 100%;
+        border-radius: 20px;
+        height: 100px;
+        background-color:#845162;
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+        filter: drop-shadow(1px 1px 20px white);
+    }
+    
+    #atitle1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    
+    .atitle h1{
+        margin-top: 30px;
+        font-size: xx-large;
+    }   
+    
+    .ments span{
+        color: black;
+        row-gap: 60px;
+        width: 100px;
+    }
+
+    #achieve div {
+        height: auto;
+        width: auto;
+        background: #e3b6b1;
+        border-radius: 50px;
+        padding-bottom: 50px;
+        margin: 20px;
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+        margin-bottom: 50px;
+    }
+    
+    /*text for the two title (grandmother & friends)*/
+    div h1{
+        color: white;
+        background-color: transparent;
+    }
+
+
+    /*the explanation of the design is on the HTML file :) */

@@ -1,0 +1,65 @@
+header {
+    margin-top: 30px;
+    margin-left: 10%;
+    position: fixed;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    align-items: center;    
+    z-index: 10;
+}
+
+body {
+    height: 100%
+     hidden;
+    background-color: transparent;
+}
+
+.logo {
+    padding-right: 50px;
+    font-size: 3rem;
+    color: black;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+    z-index: 5;
+    margin-top: 5px;
+}
+.logo:hover{
+    transform: scale(1.1);
+    color: blue;
+}
+
+/*navbars that are not yet active*/
+nav a{
+    font-size: 20px;
+    color: black;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+    text-align: center;
+    z-index: 5;
+}
+nav a:hover{
+    color: blue;
+}
+nav a.active{
+    color: blue;
+    text-align: right;
+}
+
+nav a.active{
+padding: 1rem;
+border-radius: 0.5rem;
+border-bottom: 0.5rem solid blue;
+text-align: left;
+}
+
+section{
+padding: 100px;
+}
+
+.para{
+    margin-left: 450px;
+}
